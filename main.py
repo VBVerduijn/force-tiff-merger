@@ -84,8 +84,8 @@ def pre_proc(data_, two=False):
 def extract_vid():
     video_ = input("What is the tiff-stack location? [FULL PATH] ")
     imstack_ = skio.imread(video_, plugin="tifffile")
-    length_ = int(imstack.shape[0])
-    dimensions_ = [imstack.shape[1], imstack.shape[2]]
+    length_ = int(imstack_.shape[0])
+    dimensions_ = [imstack_.shape[1], imstack_.shape[2]]
     return imstack_, length_, dimensions_
 
 
