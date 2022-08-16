@@ -11,8 +11,8 @@ import tqdm
 def init():
     print("\n")
     print("\n")
-    print("\n")
-    print("\033[1;32m *********************************************************")
+    print("\033[1;32m \n")
+    print("*********************************************************")
     print("Made by V.B. Verduijn; v.b.verduijn@rug.nl")
     print("Version 1.3")
     print("Do not reproduce without permission")
